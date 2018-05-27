@@ -159,7 +159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_blockObj: {fileID: 1219218046952936, guid: 9b03a52e93a7d465e891d446e4605505, type: 2}
-  m_interval: 10
+  m_interval: 200
 --- !u!1 &367072427
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,7 +517,7 @@ GameObject:
   - component: {fileID: 1259412994}
   - component: {fileID: 1259412993}
   - component: {fileID: 1259412995}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -732,7 +732,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: 47.3}
+  m_AnchoredPosition: {x: -100, y: 47.3}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1446248534
@@ -780,7 +780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_rigidbody2D: {fileID: 1446248537}
-  jumpPower: 1200
+  jumpPower: 1000
 --- !u!50 &1446248537
 Rigidbody2D:
   serializedVersion: 4
